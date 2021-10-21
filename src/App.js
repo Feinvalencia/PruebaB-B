@@ -3,7 +3,7 @@ import SectionButtons from './components/SectionButtons'
 import Menu from './components/Menu'
 import SectionImg from './components/SectionImg'
 import SectionAbout from './components/SectionAbout'
-
+import Footer from './components/Footer'
 function App() {
   return (
     <>
@@ -13,6 +13,9 @@ function App() {
           <SectionImg/>
       </Container>
       <SectionAbout/>
+      <Container>
+        <Footer/>
+      </Container>
     </>
   )
 }
