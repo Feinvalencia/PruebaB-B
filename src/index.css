@@ -1,31 +1,10 @@
 @font-face {
-  font-family: "MyFuente";
-  src: url("./fonts/fontawesome-webfont.eot");
-}
-@font-face {
-  font-family: "MyFuente2";
-  src: url("./fonts/fontawesome-webfont.ttf");
-}
-@font-face {
-  font-family: "MyFuente3";
-  src: url("./fonts/fontawesome-webfont.woff");
-}
-@font-face {
-  font-family: "MyFuente4";
-  src: url("./fonts/GothamBold.ttf");
-}
-@font-face {
-  font-family: "MyFuente5";
-  src: url("./fonts/fontawesome-webfont.ttf");
-}
-@font-face {
   font-family: "WebFont";
-  src: url("./fonts/fontawesome-webfont.eot");
-  src: url("./fonts/FontAwesome.otf") format("embedded-opentype"),
-    url("./fonts/fontawesome-webfont.woff2") format("woff2"),
-    url("./fonts/fontawesome-webfont.woff") format("woff"),
-    url("./fonts/fontawesome-webfont.ttf") format("truetype"),
-    url("./fonts/fontawesome-webfont.svg") format("svg");
+  src: url(./fonts/FontAwesome.otf) format("embedded-opentype"),
+    url(./fonts/fontawesome-webfont.woff2) format("woff2"),
+    url(./fonts/fontawesome-webfont.woff) format("woff"),
+    url(./fonts/fontawesome-webfont.ttf) format("truetype"),
+    url(./fonts/fontawesome-webfont.svg) format("svg");
 }
 
 html,
