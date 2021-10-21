@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import {DocumentBulletList} from '@styled-icons/fluentui-system-regular/DocumentBulletList'
 import {RightArrowCircle} from '@styled-icons/boxicons-regular/RightArrowCircle'
-const SectionAbout = () =>{
 
+const SectionAbout = () =>{
     const Container= styled.div`
         display: flex;
         background-color: white;
@@ -70,9 +70,6 @@ const Arrow = styled(RightArrowCircle)`
     width: 1.3rem;
 
 `
-
-
-
     return(
         <Container>
             <ContainerImg>

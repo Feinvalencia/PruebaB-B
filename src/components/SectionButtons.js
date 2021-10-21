@@ -32,7 +32,6 @@ const Arrow = styled(RightArrowCircle)`
     right: 20px;
     position: absolute;
 `
-
 const ButtonGo = styled.div`
     cursor: pointer;
     border-radius: 4px;
@@ -54,8 +53,6 @@ const ButtonGo = styled.div`
             fill: white;
         }
     }
-    
-
 `
 const Question = styled(QuestionMarkCircleOutline)`
     color :#434345;
@@ -66,7 +63,6 @@ const Question = styled(QuestionMarkCircleOutline)`
         color: white;
     }
 `
-
 const ButtonMore = styled(ButtonGo)`
     color :#434345;
     background-color:#fff;
@@ -78,9 +74,7 @@ const ButtonMore = styled(ButtonGo)`
             fill: white;
         }
     }
-    
 `
-
 const SectionButtons = () =>{
     return(
         <ContWhite>
