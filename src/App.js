@@ -6,12 +6,14 @@ import SectionAbout from './components/SectionAbout'
 
 function App() {
   return (
-    <Container>
-      <Menu/>
-      <SectionButtons/>
-      <SectionImg/>
+    <>
+      <Container>
+          <Menu/>
+          <SectionButtons/>
+          <SectionImg/>
+      </Container>
       <SectionAbout/>
-    </Container>
+    </>
   )
 }
 

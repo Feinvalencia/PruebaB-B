@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 import {DocumentBulletList} from '@styled-icons/fluentui-system-regular/DocumentBulletList'
+import {RightArrowCircle} from '@styled-icons/boxicons-regular/RightArrowCircle'
 const SectionAbout = () =>{
-    
+
     const Container= styled.div`
         display: flex;
         background-color: white;
@@ -23,7 +24,7 @@ const SectionAbout = () =>{
     `
     const Document = styled(DocumentBulletList)`
     color :white;
-    width: 1.7rem;
+    width: 1.3rem;
 
 `
     const ButtonMore = styled.div`
@@ -35,9 +36,9 @@ const SectionAbout = () =>{
     width: 9rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    padding: 0.5rem 0rem;
+    padding: 0.3rem 0rem;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border: 2px solid #fff;
     -webkit-transition: 0.4s;
     transition: 0.4s;
@@ -51,9 +52,27 @@ const SectionAbout = () =>{
             fill: #434345;
         }
     }
+`
+const ContainerText = styled.div`
+    padding: 0rem 3rem;
+    width: 60%;
+    h1{
+        
+    }
+`
+const ButtonReading = styled(ButtonMore)`
+    width: 15rem;   
+    position: relative;
     
+`
+const Arrow = styled(RightArrowCircle)`
+    color: white;
+    width: 1.3rem;
 
 `
+
+
+
     return(
         <Container>
             <ContainerImg>
@@ -69,10 +88,16 @@ const SectionAbout = () =>{
                      More
                 </ButtonMore>
             </ContainerImg>
-            <div>
+            <ContainerText>
                 <h1>So what's this all about</h1>
-                <p></p>
-            </div>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+
+                <ButtonReading>
+                    <Arrow/>
+                    Continue Reading
+                </ButtonReading>
+            </ContainerText>
         </Container>
     )
 }

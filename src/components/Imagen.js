@@ -4,6 +4,7 @@ const Imagen = styled.div`
 display:flex;
 justify-content: space-around;
 cursor: pointer;
+margin-bottom: 3rem;
 .card {
   width: 330px;  
   margin: 10px;
