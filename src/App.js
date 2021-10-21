@@ -4,6 +4,7 @@ import Menu from './components/Menu'
 import SectionImg from './components/SectionImg'
 import SectionAbout from './components/SectionAbout'
 import Footer from './components/Footer'
+import Copy from './components/Copy'
 function App() {
   return (
     <>
@@ -15,7 +16,9 @@ function App() {
       <SectionAbout/>
       <Container>
         <Footer/>
+        <Copy/>
       </Container>
+      
     </>
   )
 }
